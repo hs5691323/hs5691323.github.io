@@ -1,0 +1,157 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+header{
+          width: 100vw;
+          height: 100%;
+          display: flex;
+          text-align: center;
+          justify-content: space-between;
+          /* background-image: url(/Resources/bg.png.png); */
+          background-color: #c4edee;
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+
+.logo {
+          height: 79px;
+          width: 218px;
+          margin: 19px 18px;
+      }
+
+.nav_bar{
+          display: flex;
+          text-decoration: none;
+          margin: 25px;
+          padding: 25px;
+          font-size: 1.5em;
+}
+
+.nav_bar a{
+          text-decoration: none;
+          justify-content: space-between;
+          position: relative;
+          padding: 24px;
+          margin: 4px;
+          color: black;
+}
+
+.button{
+          /* color: aquamarine; */
+          margin: 85px;
+          color: white;
+          
+          
+
+}
+.button button{
+          background-color: aquamarine;
+          width: 5em;
+          height: 2em;
+          border-radius: 1em;
+}
+.middle{
+          background-image: url(/Resources/bg.png.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          width: 100%;
+}
+
+.left_p {
+          display: flex;
+          width: 5em;
+          height: 5em;
+}
+
+.left_p img{
+    position: relative;
+    left: 544px;
+    top: 53px;
+    width: 351px;
+    height: 305px;
+}
+/* 
+.right_p h1{
+          display: flex;
+} */
+
+.right_p{
+          display: flex;
+          font-display:inherit;
+          position:relative;
+          left: 70%;
+          margin: 53px;
+          font: bolder;
+}
+.right_p h1{
+          font: italic;
+          font-variant: normal;
+}
+
+.about_p{
+          display: flex;
+          position: relative;
+          left: 50%;
+          margin: 135px;
+          font: italic;
+}
+
+.about_p pre{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          margin: -46px;
+        position: relative;
+        left: 4%;
+}
+
+.resume{
+          display: flex;
+          position: relative;
+          left: 121%;
+}
+.resume button{
+          /* height: 5px; */
+          width: 7em;
+          color: red;
+          background-color: aqua;
+          border-radius: 28px;
+}
+.footer{
+          display: flex;
+}
+
+.footer p{
+    display: flex;
+    font-size: 2em;
+    font-style: italic;
+    margin: 2em;
+}
+.f_logo{
+            width: 50px;
+            margin: 50px;
+}
+
+
+/* Contact file css start */
+
+/* header{
+          display: inline-block;
+          width: 100vw;
+          height: 100vh;
+          background-color:#c4edee ;
+}
+
+.heading{
+          font-size: 4em;
+}
+header form{
+          display: inline;
+          justify-content: space-between;
+}
+input {
+    margin: 22px;
+    padding: 5px;
+} */

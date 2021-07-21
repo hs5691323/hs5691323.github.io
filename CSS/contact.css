@@ -1,0 +1,61 @@
+/* Contact file css start */
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+/* header{
+          display: inline-block;
+} */
+/* Contact file css start */
+
+header{
+          display: inline-block;
+          width: 100vw;
+          height: 200vh;
+          background-color:#c4edee ;
+}
+
+.heading{
+          font-size: 4em;
+          margin: 1em;
+          border-color: red;
+          border-radius: 15px;
+          
+}
+header form{
+          display: inline;
+          justify-content: space-between;
+}
+.details{
+    padding: 15px;
+}
+input {
+    margin: 22px;
+    padding: 5px;
+}
+.send button{
+          height: 38px;
+          width: 140px;
+          font-size: 27px;
+          color: red;
+          background-color: aquamarine;
+          border-radius: 22px;
+
+}
+.footer{
+    display: flex;
+}
+
+.footer p{
+            display: flex;
+            font-size: 2em;
+            font-style: italic;
+            margin: 2em;
+}
+.f_logo{
+      width: 50px;
+      margin: 50px;
+}
